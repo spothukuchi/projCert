@@ -1,4 +1,4 @@
 FROM php:7.2-cli
-COPY ./website ./
+COPY . ./website
 WORKDIR ./website
 CMD ["php", "index.php"]
