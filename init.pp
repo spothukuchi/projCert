@@ -1,4 +1,3 @@
-class dockermod {
 # Docker installation
 file_line { 'debian_package':
     path => '/etc/apt/sources.list',
